@@ -5,13 +5,13 @@
 using namespace std;
 
 void test1() {
-	TreeNode *pNode1 = new TreeNode(1);
+	TreeNode *pNode1 = new TreeNode(8);
 	TreeNode *pNode2 = new TreeNode(8);
 	TreeNode *pNode3 = new TreeNode(7);
-	TreeNode *pNode4 = new TreeNode(3);
+	TreeNode *pNode4 = new TreeNode(9);
 	TreeNode *pNode5 = new TreeNode(2);
 	TreeNode *pNode6 = new TreeNode(4);
-	TreeNode *pNode7 = new TreeNode(0);
+	TreeNode *pNode7 = new TreeNode(7);
 
 	TreeNode *pNode8 = new TreeNode(8);
 	TreeNode *pNode9 = new TreeNode(9);
