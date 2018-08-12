@@ -7,6 +7,7 @@ using namespace std;
 void preOrder(TreeNode *pNode1, TreeNode *pNode2, bool &isMatched);
 
 void searchRoot(TreeNode *pNode1, TreeNode *pRoot2, bool &isFounded) {
+	if (pRoot2 == nullptr) return;
 	if (pNode1 != nullptr) {
 		if (pNode1->val == pRoot2->val) {
 			//pNode1和pRoot2匹配
@@ -35,7 +36,6 @@ void preOrder(TreeNode *pNode1, TreeNode *pNode2, bool &isMatched) {
 		preOrder(pNode1->right, pNode2->right, isMatched);
 	}
 }
-
 
 bool HasSubtree(TreeNode *pRoot1, TreeNode *pRoot2) {
 	if (pRoot1 == nullptr || pRoot2 == nullptr)
